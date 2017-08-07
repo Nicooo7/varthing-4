@@ -23,6 +23,7 @@ from random import *
 from unidecode import unidecode
 
 
+
 app_name = 'revendication'
 	
 
@@ -34,7 +35,7 @@ def creer_revendication(request):
 		form = RevendicationForm(request.POST)
 		
 		if form.is_valid():
-			intitule = unidecode(request.POST["intitule"])
+			intitule = unidecode(request.POST["intitule"]).encode('utf-8')
 			#on crée la proposition 
 			la_proposition = Proposition.objects.create(ennonce = intitule, tags=request.POST["tags"]) 
 			la_proposition.save()

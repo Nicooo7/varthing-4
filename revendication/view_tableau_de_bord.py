@@ -20,7 +20,7 @@ import os
 from nltk import *
 from bs4 import BeautifulSoup
 from random import *
-from revendication.fonctions.creation_graph import *
+from .fonctions.creation_graph import *
 
 
 

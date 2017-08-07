@@ -1,14 +1,33 @@
 { "nodes" : [
-{"id" : "accueillir genereusement tous les immigres", "label"  : "accueillir genereusement tous les immigres","x" :0.3693775403650567, "y" : 0.8453081945313347, "size"  : 3 }
-,{"id" : "faire de la planete sa priorite", "label"  : "faire de la planete sa priorite","x" :0.7618925202984087, "y" : 0.8597010394342359, "size"  : 3 }
-,{"id" : "encourager le capitalisme", "label"  : "encourager le capitalisme","x" :0.6716260782596948, "y" : 0.0, "size"  : 3 }
-,{"id" : "se preoccuper de la planete", "label"  : "se preoccuper de la planete","x" :0.0, "y" : 0.6477575965568144, "size"  : 3 }
-,{"id" : "virer tous les immigres", "label"  : "virer tous les immigres","x" :0.10403820079398529, "y" : 0.12909413886541143, "size"  : 3 }
-,{"id" : "faire comme si on s'en preoccupait de la planete", "label"  : "faire comme si on s'en preoccupait de la planete","x" :1.0, "y" : 0.4624095256767332, "size"  : 3 }],
+{"id" : "faire de la planete sa priorite", "label"  : "faire de la planete sa priorite","x" :0.6750362229538723, "y" : 0.0384761768610495, "size"  : 3 }
+,{"id" : "faire comme si on s'en preoccupait de la planete", "label"  : "faire comme si on s'en preoccupait de la planete","x" :1.0, "y" : 0.3650292684733914, "size"  : 3 }
+,{"id" : "se preoccuper de la planete", "label"  : "se preoccuper de la planete","x" :0.0, "y" : 0.39067119908987025, "size"  : 3 }
+,{"id" : "lutter contre la loi travail", "label"  : "lutter contre la loi travail","x" :0.7235260624961308, "y" : 0.9235976710927473, "size"  : 3 }
+,{"id" : "promouvoir le deplacement en avion", "label"  : "promouvoir le deplacement en avion","x" :0.8805695018890641, "y" : 0.15212339061675864, "size"  : 3 }
+,{"id" : "virer tous les immigres", "label"  : "virer tous les immigres","x" :0.3161436891004729, "y" : 0.0, "size"  : 3 }
+,{"id" : "virer certains immigres", "label"  : "virer certains immigres","x" :0.08654594125635547, "y" : 0.17850002847068944, "size"  : 3 }
+,{"id" : "detruire le capitalisme", "label"  : "detruire le capitalisme","x" :0.9974020460468983, "y" : 0.5578421318060492, "size"  : 3 }
+,{"id" : "des pates du pain!", "label"  : "des pates du pain!","x" :0.31675126639251083, "y" : 0.9318328803783352, "size"  : 3 }
+,{"id" : "encourager le capitalisme", "label"  : "encourager le capitalisme","x" :0.035160114257519796, "y" : 0.6133317278760917, "size"  : 3 }
+,{"id" : "accueillir genereusement tous les immigres", "label"  : "accueillir genereusement tous les immigres","x" :0.517437034611132, "y" : 0.43437443436541495, "size"  : 3 }],
 
 "edges":[
-{ "id" : "0", "source"  : "accueillir genereusement tous les immigres", "target"  :"faire de la planete sa priorite"}
-,{ "id" : "1", "source"  : "accueillir genereusement tous les immigres", "target"  :"se preoccuper de la planete"}
-,{ "id" : "2", "source"  : "accueillir genereusement tous les immigres", "target"  :"encourager le capitalisme"}
-,{ "id" : "3", "source"  : "accueillir genereusement tous les immigres", "target"  :"faire comme si on s'en preoccupait de la planete"}
-,{ "id" : "4", "source"  : "accueillir genereusement tous les immigres", "target"  :"virer tous les immigres"}] }
+{ "id" : "0", "source"  : "encourager le capitalisme", "target"  :"se preoccuper de la planete"}
+,{ "id" : "1", "source"  : "faire de la planete sa priorite", "target"  :"promouvoir le deplacement en avion"}
+,{ "id" : "2", "source"  : "virer certains immigres", "target"  :"encourager le capitalisme"}
+,{ "id" : "3", "source"  : "faire comme si on s'en preoccupait de la planete", "target"  :"detruire le capitalisme"}
+,{ "id" : "4", "source"  : "detruire le capitalisme", "target"  :"promouvoir le deplacement en avion"}
+,{ "id" : "5", "source"  : "accueillir genereusement tous les immigres", "target"  :"faire de la planete sa priorite"}
+,{ "id" : "6", "source"  : "detruire le capitalisme", "target"  :"accueillir genereusement tous les immigres"}
+,{ "id" : "7", "source"  : "accueillir genereusement tous les immigres", "target"  :"se preoccuper de la planete"}
+,{ "id" : "8", "source"  : "faire de la planete sa priorite", "target"  :"detruire le capitalisme"}
+,{ "id" : "9", "source"  : "encourager le capitalisme", "target"  :"accueillir genereusement tous les immigres"}
+,{ "id" : "10", "source"  : "accueillir genereusement tous les immigres", "target"  :"encourager le capitalisme"}
+,{ "id" : "11", "source"  : "virer certains immigres", "target"  :"se preoccuper de la planete"}
+,{ "id" : "12", "source"  : "virer tous les immigres", "target"  :"virer certains immigres"}
+,{ "id" : "13", "source"  : "detruire le capitalisme", "target"  :"virer tous les immigres"}
+,{ "id" : "14", "source"  : "virer tous les immigres", "target"  :"se preoccuper de la planete"}
+,{ "id" : "15", "source"  : "promouvoir le deplacement en avion", "target"  :"accueillir genereusement tous les immigres"}
+,{ "id" : "16", "source"  : "encourager le capitalisme", "target"  :"virer tous les immigres"}
+,{ "id" : "17", "source"  : "accueillir genereusement tous les immigres", "target"  :"faire comme si on s'en preoccupait de la planete"}
+,{ "id" : "18", "source"  : "accueillir genereusement tous les immigres", "target"  :"virer tous les immigres"}] }

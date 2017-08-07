@@ -23,7 +23,7 @@ from bs4 import BeautifulSoup
 from random import *
 from datetime import datetime
 from datetime import timedelta
-from revendication.fonctions.creation_graph import *
+from .fonctions.creation_graph import *
 from unidecode import unidecode
 
 page = []
